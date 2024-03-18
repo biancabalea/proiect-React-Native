@@ -1,0 +1,96 @@
+// styles.js
+
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    marginTop: 50,
+  },
+  header: {
+    backgroundColor: 'lightpink',
+    paddingVertical: 0,
+    alignItems: 'center',
+  },
+  headerText: {
+    fontSize: 20,
+    fontStyle: 'italic',
+  },
+  addButton: {
+    backgroundColor: 'deeppink',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 10,
+    alignSelf: 'center'
+  },
+  addButtonLabel: {
+    color: 'pink',
+    fontSize: 16,
+  },
+  background: {
+    flex: 1,
+    backgroundColor: 'pink',
+  },
+  taskListContainer: {
+    marginTop: 20,
+  },
+  tableContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: 10,
+  },
+  tableColumn: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  modalContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalContent: {
+    backgroundColor: 'white',
+    padding: 20,
+    borderRadius: 10,
+  },
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 10,
+    padding: 10,
+    width: '100%',
+  },
+  cancelButton: {
+    backgroundColor: 'gray',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 10,
+  },
+  settingsButton: {
+    backgroundColor: 'deeppink',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 10,
+    alignSelf: 'center',
+  },
+  settingsButtonLabel: {
+    color: 'white',
+    textAlign: 'center',
+},
+  notificationToggleContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+    saveButton: {
+    backgroundColor: 'gray',
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 10,
+  },
+});
+
+export default styles;
